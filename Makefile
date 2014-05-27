@@ -2,6 +2,8 @@ PROJECT = export_val
 
 include erlang.mk
 
+test: eunit
+
 ebin/%.beam: test/%.erl
 	@erlc -pa ebin -o ebin $<
 
