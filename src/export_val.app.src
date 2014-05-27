@@ -1,0 +1,12 @@
+{application, export_val, [
+  {description, "parse transform for def-like functionality"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    syntax_tools
+  ]},
+  {env, []}
+]}.
